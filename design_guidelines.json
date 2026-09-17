@@ -1,0 +1,303 @@
+{
+  "theme": "light",
+  "archetype": "ARCHETYPE 1: ORGANIC & EARTHY meets CLINICAL PRECISION (Trust, Calm, Accuracy, Safety)",
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#F8FAFC",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "link": "#0284C7",
+          "error": "#DC2626",
+          "success": "#16A34A",
+          "warning": "#D97706"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B",
+        "roles": {
+          "link": "#0369A1",
+          "error": "#B91C1C",
+          "success": "#15803D",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "panel_subtle",
+        "kind": "solid",
+        "bg": "#F1F5F9",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B"
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#0B1528",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "link": "#38BDF8",
+          "error": "#F87171",
+          "success": "#4ADE80",
+          "warning": "#FBBF24"
+        }
+      },
+      {
+        "name": "emergency_banner",
+        "kind": "solid",
+        "bg": "#FEF2F2",
+        "on_bg": "#991B1B",
+        "on_bg_muted": "#B91C1C",
+        "roles": {
+          "link": "#7F1D1D"
+        }
+      },
+      {
+        "name": "risk_low_badge",
+        "kind": "solid",
+        "bg": "#ECFDF5",
+        "on_bg": "#065F46",
+        "on_bg_muted": "#047857"
+      },
+      {
+        "name": "risk_medium_badge",
+        "kind": "solid",
+        "bg": "#FFFBEB",
+        "on_bg": "#92400E",
+        "on_bg_muted": "#B45309"
+      },
+      {
+        "name": "risk_high_badge",
+        "kind": "solid",
+        "bg": "#FFF1F2",
+        "on_bg": "#9F1239",
+        "on_bg_muted": "#BE123C"
+      },
+      {
+        "name": "risk_critical_badge",
+        "kind": "solid",
+        "bg": "#450A0A",
+        "on_bg": "#FEE2E2",
+        "on_bg_muted": "#FECACA"
+      },
+      {
+        "name": "glass_header",
+        "kind": "glass",
+        "contrast_against": "#F8FAFC",
+        "guarantee": "backdrop-blur-xl bg-white/85 border-b border-slate-200/80",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "link": "#0284C7"
+        }
+      },
+      {
+        "name": "hero_editorial",
+        "kind": "solid",
+        "bg": "#F0FDF4",
+        "on_bg": "#064E3B",
+        "on_bg_muted": "#047857"
+      }
+    ],
+    "accent": "#0D9488",
+    "on_accent": "#FFFFFF",
+    "brand_primary": "#0D9488",
+    "brand_secondary": "#0284C7",
+    "risk_palette": {
+      "low": "#10B981",
+      "medium": "#F59E0B",
+      "high": "#F43F5E",
+      "critical": "#DC2626"
+    }
+  },
+  "typography": {
+    "font_heading": "'Plus Jakarta Sans Variable', sans-serif",
+    "font_body": "'DM Sans Variable', sans-serif",
+    "font_mono": "'JetBrains Mono Variable', monospace",
+    "css_font_import": "@import \"@fontsource-variable/plus-jakarta-sans\";\n@import \"@fontsource-variable/dm-sans\";\n@import \"@fontsource-variable/jetbrains-mono\";",
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 24,
+      "h4": 18,
+      "body": 16,
+      "caption": 14
+    },
+    "rules": {
+      "headings": "font-heading font-bold tracking-tight text-slate-900",
+      "body": "font-body text-base text-slate-700 leading-relaxed",
+      "labels": "font-heading uppercase tracking-[0.15em] text-xs font-semibold text-slate-500",
+      "mono_data": "font-mono text-sm tracking-normal text-slate-800"
+    }
+  },
+  "entry_surfaces": {
+    "/": "split hero — brand value + prominent emergency notice + scenario quick-launch left, seeded live interactive preview card with risk gauge right",
+    "/assessment": "dual-pane clinical workspace — AI conversation stream with mic toggle on left, real-time extracted symptoms + preliminary assessment card + explainable risk gauge on right",
+    "/dashboard": "triage command center — top critical stat metric cards, 4-column recharts analytics grid (risk distribution, timeline, department recommendations, human review load)",
+    "/patients": "data-dense clinical directory — search & filter bar, multi-attribute patient table with risk badges, review flags, quick assessment actions",
+    "/assessments": "audit history list — searchable triage log with printable detail modal/page containing patient summary, AI reasoning factors, and medical guidance",
+    "/human-review": "triage escalation queue — urgency filter tabs (Critical, High, Low Confidence, Pending), case inspection drawer, doctor review and resolution actions",
+    "/departments": "clinical specialty grid — department cards showing active cases, common triage symptoms, specialty guidance and routing logic",
+    "/settings": "integration & threshold console — n8n webhook status/URL, Vapi voice pipeline config, AI risk threshold controls with demo sandbox markers"
+  },
+  "visual_enhancers": {
+    "noise_texture": "Subtle 2% noise texture on hero panels to add depth and eliminate flat digital veneer",
+    "glass_blur": "backdrop-blur-xl bg-white/80 border border-slate-200/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]",
+    "soft_glows": "Teal/cyan ambient blurred backdrop circles (opacity 0.15, blur-3xl) for high-tech clinical depth",
+    "tracing_beam": "Active pulsing green/amber/red indicators for live triage risk detection status",
+    "medical_cross_watermark": "Delicate SVG clinical grid and crosshair watermarks at 4% opacity in assessment container"
+  },
+  "image_urls": {
+    "doctor_consultation": {
+      "url": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwY29uc3VsdGF0aW9ufGVufDB8fHx8MTc4OTY2NjkzMHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Compassionate doctor consulting with patient in modern clinic",
+      "placement": "Landing page hero background card / Trust badge section"
+    },
+    "clinical_reception": {
+      "url": "https://images.pexels.com/photos/33812025/pexels-photo-33812025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Modern warm clinical healthcare center reception",
+      "placement": "Department recommendations card / About section"
+    },
+    "medical_technology": {
+      "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdGVjaG5vbG9neSUyMGhlYWx0aHxlbnwwfHx8fDE3ODk2NjY5MzB8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Clinician with stethoscope using digital healthcare diagnostic tool",
+      "placement": "AI Assistant capabilities showcase / Human Review banner"
+    },
+    "doctor_specialist": {
+      "url": "https://images.pexels.com/photos/7578798/pexels-photo-7578798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Specialist physician reviewing clinical triage documentation",
+      "placement": "Human Review portal header / Assessment detail verification"
+    }
+  },
+  "component_path": {
+    "layout": {
+      "Navbar": "@/components/Navbar.tsx",
+      "Footer": "@/components/Footer.tsx",
+      "EmergencyBanner": "@/components/EmergencyBanner.tsx",
+      "Sidebar": "@/components/Sidebar.tsx"
+    },
+    "assessment": {
+      "ChatWindow": "@/components/assessment/ChatWindow.tsx",
+      "VoiceMicButton": "@/components/assessment/VoiceMicButton.tsx",
+      "ExtractedSymptomsCard": "@/components/assessment/ExtractedSymptomsCard.tsx",
+      "RiskScoreGauge": "@/components/assessment/RiskScoreGauge.tsx",
+      "AssessmentResultCard": "@/components/assessment/AssessmentResultCard.tsx",
+      "RiskFactorsExplainability": "@/components/assessment/RiskFactorsExplainability.tsx",
+      "DepartmentRecommendationCard": "@/components/assessment/DepartmentRecommendationCard.tsx",
+      "DemoScenarioLauncher": "@/components/assessment/DemoScenarioLauncher.tsx"
+    },
+    "dashboard": {
+      "StatCard": "@/components/dashboard/StatCard.tsx",
+      "RiskDistributionChart": "@/components/dashboard/RiskDistributionChart.tsx",
+      "AssessmentTrendsChart": "@/components/dashboard/AssessmentTrendsChart.tsx",
+      "DepartmentBreakdownChart": "@/components/dashboard/DepartmentBreakdownChart.tsx",
+      "ReviewLoadChart": "@/components/dashboard/ReviewLoadChart.tsx"
+    },
+    "review": {
+      "HumanReviewTable": "@/components/review/HumanReviewTable.tsx",
+      "ReviewDetailDrawer": "@/components/review/ReviewDetailDrawer.tsx"
+    },
+    "report": {
+      "AssessmentReportView": "@/components/report/AssessmentReportView.tsx"
+    }
+  },
+  "grids_and_layouts": {
+    "landing_layout": "Container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 space-y-24",
+    "assessment_layout": "grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-7xl mx-auto px-4 py-8 items-start",
+    "chat_col_span": "lg:col-span-7 space-y-4",
+    "summary_col_span": "lg:col-span-5 space-y-6 sticky top-24",
+    "dashboard_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8",
+    "dashboard_charts_grid": "grid grid-cols-1 lg:grid-cols-2 gap-8",
+    "department_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+  },
+  "motion": {
+    "chat_bubble_entrance": "initial={{ opacity: 0, y: 10, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.25, ease: 'easeOut' }}",
+    "gauge_fill_transition": "transition: stroke-dashoffset 0.8s cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "scenario_button_hover": "hover:scale-[1.02] active:scale-[0.98] transition-transform duration-150",
+    "card_hover_lift": "hover:-translate-y-1 hover:shadow-lg transition-all duration-200 ease-out",
+    "reduced_motion": "@media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }"
+  },
+  "accessibility": {
+    "apca_contrast": "All text tokens meet AA / APCA standards (>60 Lc for regular body, >45 Lc for bold labels)",
+    "color_blindness_safety": "Risk levels use redundant indicators: Color + Icon (AlertTriangle/ShieldCheck) + Text Label (LOW/MEDIUM/HIGH/CRITICAL) + Numeric Score",
+    "focus_states": "focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:outline-none",
+    "data_testids": "All interactive elements (buttons, inputs, filters, scenario chips, review status actions) MUST have explicit kebab-case data-testid tags"
+  },
+  "instructions_to_main_agent": {
+    "seed_scenarios": [
+      {
+        "id": "scenario-low",
+        "title": "Mild Tension Headache (LOW)",
+        "patient": "Sarah Jenkins, 29",
+        "initial_message": "I've had a dull aching headache on both sides of my head since yesterday afternoon after working at my computer.",
+        "risk_level": "LOW",
+        "risk_score": 18,
+        "confidence": 94,
+        "category": "Tension-type Cephalea",
+        "department": "General Medicine / Neurology",
+        "why": "Mild pain intensity, absence of 'red flag' neurological deficits (vision loss, neck stiffness, confusion), postural/screen trigger.",
+        "guidance": "Rest in a quiet dimly lit room, maintain hydration, reduce screen glare, consider OTC analgesics if approved by physician."
+      },
+      {
+        "id": "scenario-med",
+        "title": "Persistent Fever & Fatigue (MEDIUM)",
+        "patient": "Marcus Vance, 42",
+        "initial_message": "I've had a 101.5°F fever for 4 days now, accompanied by severe body aches, dry cough, and persistent fatigue that makes it hard to get out of bed.",
+        "risk_level": "MEDIUM",
+        "risk_score": 52,
+        "confidence": 88,
+        "category": "Systemic Viral / Respiratory Infection",
+        "department": "Internal Medicine / Infectious Disease",
+        "why": "Fever duration >72 hours, moderate fatigue interfering with daily activities, respiratory involvement without acute respiratory distress.",
+        "guidance": "Schedule an in-person or telehealth clinical evaluation within 24-48 hours. Monitor temperature and pulse oximetry."
+      },
+      {
+        "id": "scenario-high",
+        "title": "Acute Breathing Difficulty (HIGH)",
+        "patient": "Elena Rostova, 61",
+        "initial_message": "I am experiencing sudden shortness of breath when walking short distances, wheezing, and a tight sensation across my upper chest that started 3 hours ago.",
+        "risk_level": "HIGH",
+        "risk_score": 78,
+        "confidence": 91,
+        "category": "Acute Respiratory Distress / Bronchospasm",
+        "department": "Pulmonology / Emergency Assessment",
+        "why": "Rapid onset of dyspnea at low exertion, audible wheezing, elevated age factor (61), potential cardiopulmonary compromise.",
+        "guidance": "Seek urgent medical attention today at an Urgent Care or Emergency Department. Avoid exertion and remain seated upright."
+      },
+      {
+        "id": "scenario-critical",
+        "title": "Crushing Chest Pain & Dyspnea (CRITICAL)",
+        "patient": "Robert Chen, 58",
+        "initial_message": "Severe crushing pressure in the center of my chest radiating to my left jaw and shoulder, sweating heavily, feeling dizzy and short of breath.",
+        "risk_level": "CRITICAL",
+        "risk_score": 96,
+        "confidence": 97,
+        "category": "Potential Acute Coronary Syndrome",
+        "department": "Emergency Medicine / Cardiology",
+        "why": "Classic cardiac 'red flag' constellation: radiating retrosternal crushing pain, autonomic symptoms (diaphoresis, presyncope), acute dyspnea.",
+        "guidance": "CALL EMERGENCY SERVICES (911/112) IMMEDIATELY. Do not drive yourself. Rest in a semi-upright position while awaiting emergency responders."
+      }
+    ],
+    "disclaimer_and_safety": {
+      "mandatory_text": "MediSense AI is an artificial intelligence triage and preliminary assessment assistant for informational guidance only. It DOES NOT provide medical diagnosis or replace licensed clinical judgment. If experiencing severe symptoms, call 911 or visit the nearest ER immediately.",
+      "never_use_term": "Do NOT say 'Your diagnosis is'. ALWAYS use 'Preliminary Health Category' or 'Potential Pattern Match'."
+    },
+    "voice_mode_spec": "Include a voice toggle button with simulated audio wave pulse visualizer, real-time speech-to-text transcript typing effect, and Vapi config placeholder modal.",
+    "export_features": "Include Print / PDF summary export with clean printable CSS styling for medical record handoff."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Follow clean medical aesthetics: Crisp white cards, Slate-900 typography, Teal-600 accents, subtle borders, no muddy gradients.",
+    "Prominent Emergency Banner: Sticky or top-level red alert banner with emergency phone action.",
+    "Explainability First: Always show 'Why this risk level' breakdown with factor weighting badges (+30 Rapid Onset, +25 Red Flag Symptom, etc.).",
+    "Interactive Scenario Switcher: Provide 1-click test scenario buttons in the Chat interface to test LOW, MEDIUM, HIGH, and CRITICAL pathways instantly.",
+    "Strict Data Test IDs: Add data-testid on all interactive buttons, inputs, scenario chips, filters, and modals for automated testing."
+  ]
+}
